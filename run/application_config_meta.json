@@ -1,0 +1,303 @@
+{
+  "mysql": {
+    "client": {
+      "host": "/Users/mac/egg-example/config/config.default.js",
+      "port": "/Users/mac/egg-example/config/config.default.js",
+      "user": "/Users/mac/egg-example/config/config.default.js",
+      "password": "/Users/mac/egg-example/config/config.default.js",
+      "database": "/Users/mac/egg-example/config/config.default.js"
+    },
+    "app": "/Users/mac/egg-example/config/config.default.js",
+    "agent": "/Users/mac/egg-example/config/config.default.js",
+    "default": {
+      "database": "/Users/mac/egg-example/node_modules/_egg-mysql@3.0.0@egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/mac/egg-example/node_modules/_egg-mysql@3.0.0@egg-mysql/config/config.default.js"
+    }
+  },
+  "keys": "/Users/mac/egg-example/config/config.default.js",
+  "middleware": "/Users/mac/egg-example/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/mac/egg-example/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/Users/mac/egg-example/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/mac/egg-example/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/mac/egg-example/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "useSession": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "cookieName": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "sessionName": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "headerName": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "bodyName": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "queryName": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.local.js",
+      "maxAge": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "policy": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "checkAddress": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/mac/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/mac/egg-example/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/mac/egg-example/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/mac/egg-example/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/mac/egg-example/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/mac/egg-example/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/mac/egg-example/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/mac/egg-example/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "dirs": "/Users/mac/egg-example/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "queryField": "/Users/mac/egg-example/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/mac/egg-example/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/mac/egg-example/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/mac/egg-example/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/mac/egg-example/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/mac/egg-example/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js",
+      "development": "/Users/mac/egg-example/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/mac/egg-example/node_modules/_egg-schedule@3.6.2@egg-schedule/config/config.default.js",
+      "file": "/Users/mac/egg-example/node_modules/_egg-schedule@3.6.2@egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/mac/egg-example/node_modules/_egg-schedule@3.6.2@egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/mac/egg-example/node_modules/_egg-multipart@2.5.0@egg-multipart/config/config.default.js",
+    "autoFields": "/Users/mac/egg-example/node_modules/_egg-multipart@2.5.0@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/mac/egg-example/node_modules/_egg-multipart@2.5.0@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/mac/egg-example/node_modules/_egg-multipart@2.5.0@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/mac/egg-example/node_modules/_egg-multipart@2.5.0@egg-multipart/config/config.default.js",
+    "fields": "/Users/mac/egg-example/node_modules/_egg-multipart@2.5.0@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/mac/egg-example/node_modules/_egg-multipart@2.5.0@egg-multipart/config/config.default.js",
+    "files": "/Users/mac/egg-example/node_modules/_egg-multipart@2.5.0@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/mac/egg-example/node_modules/_egg-multipart@2.5.0@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/mac/egg-example/node_modules/_egg-multipart@2.5.0@egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/mac/egg-example/node_modules/_egg-multipart@2.5.0@egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/mac/egg-example/node_modules/_egg-multipart@2.5.0@egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/mac/egg-example/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/mac/egg-example/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "fastReady": "/Users/mac/egg-example/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/mac/egg-example/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "overrideDefault": "/Users/mac/egg-example/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/mac/egg-example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/mac/egg-example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/mac/egg-example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/mac/egg-example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/mac/egg-example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/mac/egg-example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/mac/egg-example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/mac/egg-example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dir": "/Users/mac/egg-example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dynamic": "/Users/mac/egg-example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "preload": "/Users/mac/egg-example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "buffer": "/Users/mac/egg-example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "maxFiles": "/Users/mac/egg-example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/mac/egg-example/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "cache": "/Users/mac/egg-example/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/mac/egg-example/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/mac/egg-example/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "mapping": "/Users/mac/egg-example/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
+  },
+  "env": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "name": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "proxy": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "maxProxyCount": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "protocolHeaders": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "ipHeaders": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "hostHeaders": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "version": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "description": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "private": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "egg-mysql": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "egg-scripts": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "autod-egg": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "egg-bin": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "egg-ci": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "egg-mock": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "eslint": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "eslint-config-egg": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "stop": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "dev": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "debug": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "test": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "test-local": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "cov": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "lint": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "ci": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "autod": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "url": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "author": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "license": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+  },
+  "baseDir": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "HOME": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "rundir": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "notFound": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "sitefile": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "middlewares": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "httpClient": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "encoding": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "formLimit": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "jsonLimit": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "strict": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "depth": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "parameterLimit": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "encoding": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "env": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "level": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "consoleLevel": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "outputJSON": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "buffer": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "appLogName": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "coreLogName": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "agentLogName": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "errorLogName": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "maxSockets": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "maxSockets": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "logging": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "serverTimeout": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "port": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+      "hostname": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js",
+    "responseTimeout": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+  },
+  "onClientError": "/Users/mac/egg-example/node_modules/_egg@2.22.2@egg/config/config.default.js"
+}
